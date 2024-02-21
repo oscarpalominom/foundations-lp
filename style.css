@@ -68,3 +68,39 @@ h1 {
     border-radius: 8px;
     color: #f9faf8;
 }
+
+.content-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 200px;
+    gap: 48px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.card {
+    text-align: center;
+    font-size: 18px;
+    color: #1f2937;
+    width: 200px;
+}
+
+.info-img {
+    border-radius: 20px;
+    border: 2px solid #3882F6;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 16px;
+}
