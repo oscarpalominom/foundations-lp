@@ -68,6 +68,7 @@ h1 {
     padding: 8px 32px;
     border-radius: 8px;
     color: #f9faf8;
+    flex-shrink: 0;
 }
 
 .content-two {
@@ -90,6 +91,7 @@ h1 {
     justify-content: space-between;
     gap: 48px;
     margin-bottom: 48px;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -162,6 +164,7 @@ h1 {
     padding: 8px 32px;
     border-radius: 8px;
     color: #f9faf8;
+    flex-shrink: 0;
 }
 
 .footer {
