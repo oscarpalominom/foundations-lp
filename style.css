@@ -87,7 +87,8 @@ h1 {
 .cards {
     display: flex;
     justify-content: space-between;
-    gap: 32px;
+    gap: 48px;
+    margin-bottom: 48px;
 }
 
 .card {
@@ -103,4 +104,23 @@ h1 {
     width: 200px;
     height: 200px;
     margin-bottom: 16px;
+}
+
+.content-three {
+    background-color: #e5e7eb;
+    padding: 48px 300px;
+    color: #1f2937;
+    font-size: 18px;
+    text-align: right;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: left;
 }
