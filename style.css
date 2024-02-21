@@ -11,7 +11,15 @@ a {
     color: #e5e7eb;
 }
 
-.header {
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    margin: 0;
+    padding: 0;
+}
+
+.header, .content-one {
     background-color: #1f2937;
     display: flex;
     padding: 16px 200px;
@@ -30,4 +38,33 @@ a {
     padding: 0;
     display: flex;
     gap: 32px;
+}
+
+.content-one {
+    padding: 64px 200px;
+    justify-content: space-between;
+    gap: 64px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.first {
+    background-color: #3882F6;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px 32px;
+    border-radius: 8px;
+    color: #f9faf8;
 }
